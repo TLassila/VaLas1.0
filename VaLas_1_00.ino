@@ -1,14 +1,24 @@
 //VALAS 1.0
-//722.6 MERCEDES GEARBOX CONTROLLER
+//722.6 GEARBOX CONTROLLER
 //SIMPLE MANUAL CONTROLLER WITH MINIMAL FEARURES FOR COMFORTABLE DRIVING
 //BY TONI LASSILA & TEEMU VAHTOLA 
-//TONI_LASSILA@HOTMAIL.COM
+//t6lato00@students.oamk.fi
 
 //DOWNLOAD U8G2 TO YOUR ARDUINO LIBRARIRIES, FOR 0,91" OLED GEAR SCREEN!
 //OTHERWISE ERASE ALL U8G2 COMMANDS
 
 //LICENCE: CC BY-NC 3.0 https://creativecommons.org/licenses/by-nc/3.0/deed.en
-//NOT FOR COMMERCIAL USE!!!
+//NOT FOR COMMERCIAL USE!
+
+// GEAR SETTINGS
+
+// PIN  1-2,4-5 SWITCH  ON/OFF
+// PIN2 2-3     SWITCH  ON/OFF
+// PIN3 3-4     SWITCH  ON/OFF
+// PIN4 LINE PRESSURE   PWM 0-255 low=0
+// PIN5 SWITCH PRESSURE PWM 0-255 low=0
+// PIN6 TURBINE LOCK    PWM 0-255 low=0
+
 
 
 #include <Arduino.h>
@@ -18,7 +28,7 @@
 
 U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C u8g2(U8G2_R0); 
 
-const int inpin[2] = {53,49,};
+const int inpin[2] = {53,50,};
 byte gear;
 
 //255/100*40=102
@@ -38,7 +48,7 @@ int ledPin2 = 35; // 2-3 vaihto     shift      LOW/HIGH
 int ledPin3 = 37; // 3-4 vaihto     shift      LOW/HIGH
 int ledPin4 = 39; // Linjapaine     MOD_PC     min-max 255-0
 int ledPin5 = 41; // Vaihtopaine    SHIFT_PC   min-max 255-0
-int ledPin6 = 43; // Turbiini-lukko TCC        min-max 0-255
+int ledPin6 = 43; // Turbiinilukko TCC        min-max 0-255
 
 boolean tila=0;
 
