@@ -5,7 +5,7 @@ Controller has gears 1-5+. Gears 1-5 are normal gears and 5+ is overdrive gear w
 
 Goal for this project was to create very simple and cheap controller, which is also user friendly to adjust and drive daily.
 This contoller is now being used on 4 different mercedes diesel vehicles with varying power output from  estimated 250-500whp & +700nm of torque. My personal vehicle has been driven past +10 000km/10 months period, basically trouble free and daily driving with same code. 
-My setup om606+8mm pump, he531 turbocharger, 722.6 from 270 cdi(+500k odo).
+My vehicle specs: om606+8mm pump, he531 turbocharger, 722.6 from 270 cdi(+500k odo).
 
 How to use:
 when vehicle is started, use relay to turn controller on with gearbox in P.
