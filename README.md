@@ -26,5 +26,6 @@ Shift 2-3    : applied during shifts          :adjustment range LOW-HIGH
 Shift 3-4    : applied during shifts          :adjustment range LOW-HIGH
 
 Made by Toni Lassila and Teemu Vahtola.
+First tests and drives in 04/2018.
 
 If you are looking for more advanced controller with automatic shifts, speedo and many more features, please take a look https://github.com/mkovero/7226ctrl by Markus Kovero.
