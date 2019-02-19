@@ -1,5 +1,5 @@
 # VaLas1.0
-Manual 722.6 controller, with support for 0,91 oled display which is easily placed on w124 gauge cluster for mimicking oem appearance.
+Manual 722.6 controller, with support for 0,91" oled display which is easily placed on w124 gauge cluster for mimicking oem appearance.
 
 Goal for this project was to create very simple and cheap controller, which is also user friendly to adjust and drive daily.
 This contoller is now being used on 4 different vehicles with varying power output from estimated 250-500whp & +700nm of torque. My personal vehicle has been driven past +10 000km/10 months period, basically trouble free and daily driving with same code. 
