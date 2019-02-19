@@ -16,7 +16,7 @@ When in position D, you can use 2 electric switches for contolling gears 1-5+, s
 
 Code and adjustments are from my vehicle, and should work smoothly even in paved surfaces. Shifting from 3-4 is meant for undrilled gearbox valve plate. After drilling valve plate, use base adjustmentr of 3-4 shift.
 
-Transmission has 6 solenoids conrolled by arduino:
+Transmission has 6 solenoids controlled by arduino:
 
 Shift pc: pressure apllied during shifts      :adjustment range 0-255 0=low pressure, pwm
 Mod pc  : pressure apllied when in gear       :adjustment range 0-255 0=low pressure, pwm
