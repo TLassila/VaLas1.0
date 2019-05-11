@@ -77,8 +77,8 @@ void setup()
  u8g2.sendBuffer();
 
   
- pinMode(inpin[0],INPUT);
- pinMode(inpin[1],INPUT);
+ pinMode(inpin[0],INPUT_PULLUP);
+ pinMode(inpin[1],INPUT_PULLUP);
 
 
          
